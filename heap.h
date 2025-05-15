@@ -9,7 +9,7 @@ public:
     int extractMin();
     void decreaseKey(int vertex, int newKey);
     bool isInMinHeap(int vertex);
-    bool isEmpty();
+    bool isEmpty() const;
 
 private:
     int* heapArray;        // Heap of vertex indices
